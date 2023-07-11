@@ -72,9 +72,11 @@ Clone this project to your desired folder.
 Run from a terminal
 
 ```
-    cd rails_react_starter
-    bundle install
-    yarn add
+  cd hello-rails-react
+
+  yarn install
+
+  bundle install
 ```
 
 ### Usage
@@ -82,9 +84,15 @@ Run from a terminal
 **To run the project follow the following instruction:-**
 
 ```
-    rails db:setup
-    yarn build
-    rails s
+  rails db:drop
+
+  rails db:create
+
+  rails assets:precompile
+
+  rails db:migrate
+
+  ./bin/dev
 ```
 
 ## 👤 Author <a name="authors"></a>
