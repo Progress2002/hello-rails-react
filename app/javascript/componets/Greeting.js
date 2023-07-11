@@ -10,7 +10,7 @@ function Greeting() {
     dispatch(getGreetings());
   }, []);
 
-  return <div>{greeting ? greeting : <p>Loading ...</p>}</div>;
+  return <div>{greeting || <p>Loading ...</p>}</div>;
 }
 
 export default Greeting;
