@@ -124,6 +124,6 @@ All thanks to Microverse for providing guidance for this project.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Progress2002/hello-rails-react/blob/dev/LICENSE) licensed.
+This project is [MIT](https://github.com/Progress2002/hello-rails-react/blob/random-greeting/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
